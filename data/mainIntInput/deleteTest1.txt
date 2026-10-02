@@ -1,0 +1,46 @@
+#     10
+#    /  \
+#   7    15
+#  / \   /
+# 3   9 12
+#         \
+#          13
+INSERT 10
+INSERT 15
+INSERT 12
+INSERT 7
+INSERT 3
+INSERT 9
+INSERT 13
+
+# Verify that 13 actually exists in the tree
+FIND 13
+
+# Try to delete it
+DELETE 13
+SIZE
+HEIGHT
+
+# Verify that we cannot find 13 in the tree anymore
+FIND 13
+
+# Print the structure of the BST after deletion
+PRINT
+#     10
+#    /  \
+#   7    15
+#  / \   /
+# 3   9 12
+
+FIND 3
+DELETE 3
+SIZE
+HEIGHT
+FIND 3
+
+PRINT
+#     10
+#    /  \
+#   7    15
+#    \   /
+#     9 12

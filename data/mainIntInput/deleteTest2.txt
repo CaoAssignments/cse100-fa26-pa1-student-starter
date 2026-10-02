@@ -1,0 +1,30 @@
+#     10
+#     /
+#    0
+#     \
+#      9
+#     /
+#    1
+#     \
+#      8
+#     /
+#    2
+#     \
+#      7
+
+INSERT 10
+INSERT 0
+INSERT 9
+INSERT 1
+INSERT 8
+INSERT 2
+INSERT 7
+
+FIND 2
+DELETE 2
+FIND 2
+
+HEIGHT
+SIZE
+
+PRINT
